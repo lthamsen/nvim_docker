@@ -23,6 +23,7 @@ RUN apt-get update && \
     ninja-build \
     nodejs \
     npm \
+    sudo \
     python3 \
     python3-pip \
     python3-venv \
