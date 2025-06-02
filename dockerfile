@@ -111,7 +111,7 @@ RUN python3 -m venv /home/${USERNAME}/.virtualenvs/debugpy && \
 
 
 
-RUN curl -sS https://starship.rs/install.sh | sh -s -- --yes
+RUN sudo curl -sS https://starship.rs/install.sh | sh -s -- --yes
 
 RUN echo "starship init fish | source" >> ~/home/${USERNAME}/.config/fish/config.fish 
 
