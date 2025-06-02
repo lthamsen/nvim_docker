@@ -113,7 +113,7 @@ RUN python3 -m venv /home/${USERNAME}/.virtualenvs/debugpy && \
 
 RUN sudo curl -sS https://starship.rs/install.sh | sh -s -- --yes
 
-RUN echo "starship init fish | source" >> ~/.config/fish/config.fish 
+# RUN echo "starship init fish | source" >> ~/.config/fish/config.fish 
 
 # 9. Set the default command when the container starts
 #    This will start the container directly into the Fish shell.
